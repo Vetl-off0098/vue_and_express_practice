@@ -1,0 +1,39 @@
+{
+  "name": "vue_project_2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "dev": "webpack-dev-server --open",
+    "serve": "nodemon src/server/server"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.2.0",
+    "nodemon": "^2.0.6",
+    "vue-loader": "^15.9.4",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "vue": "^2.6.12"
+  },
+  "description": ""
+}
